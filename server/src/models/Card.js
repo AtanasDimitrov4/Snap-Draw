@@ -16,19 +16,11 @@ const cardSchema = new Schema({
         type: String,
         minLength: 10,
     },
-    source: {
-        type: String,
-        min: 0
-    },
-    img: {
+    imgUrl: {
         type: String,
         required: true,
     },
-    releaseDate: {
-        type: Date,
-        required: false,
-    },
-   owners_Id: {
+    owners_Id: {
         type: Types.ObjectId,
         ref: 'Player',
     }
