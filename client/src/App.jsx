@@ -1,12 +1,13 @@
 
 import './App.css'
+import CardEditor from './components/edit-card/EditCard'
 
 function App() {
   
 
   return (
     <>
-    <h1>Snap Draw</h1>
+    <CardEditor />
     </>
   )
 }
